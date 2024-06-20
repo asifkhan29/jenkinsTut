@@ -37,7 +37,7 @@ public class Controller {
 	{
 		return services.getAll();
 	}
-	@DeleteMapping("/")
+	@DeleteMapping("/{id}")
 	public boolean delete(@PathVariable int id)
 	{
 		return services.delete(id);
