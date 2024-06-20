@@ -32,7 +32,7 @@ public class Controller {
 	{
 		return services.getById(id);
 	}
-	@GetMapping("/all")
+	@GetMapping("/getAll")
 	public  List<DemoEntity> getList()
 	{
 		return services.getAll();
